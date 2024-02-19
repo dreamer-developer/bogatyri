@@ -36,10 +36,10 @@ class UI {
             context.fillText(message2, this.game.width * 0.5, this.game.height * 0.5 + 20);
         }
         // рисуем количество патронов в левом верхнем углу игрового поля
-        if (this.game.player.powerUp) context.fillStyle = '#ffffbd'; // устанавливаем цвет
-        for (let i = 0; i < this.game.ammo; i++) {
-            context.fillRect(5 * i + 20, 50, 3, 20);
-        }
+        //if (this.game.player.powerUp) context.fillStyle = '#ffffbd'; // устанавливаем цвет
+        //for (let i = 0; i < this.game.ammo; i++) {
+        //    context.fillRect(5 * i + 20, 50, 3, 20);
+        //}
         context.restore();
     }
 }
