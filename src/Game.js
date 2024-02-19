@@ -115,7 +115,7 @@ class Game {
         if (randomize < 0.4) this.enemies.push(new Angler1(this));
         else if (randomize < 0.6) this.enemies.push(new Angler2(this));
         //else if (randomize < 0.7) this.enemies.push(new HiveWhale(this));
-        else if (randomize < 0.2) this.enemies.push(new LuckyFish(this));
+        else if (randomize < 0.4) this.enemies.push(new LuckyFish(this));
     }
 
     addParticles(number, enemy) {
