@@ -25,7 +25,7 @@ class UI {
             let message2;
             if (this.game.isWin()) {
                 message1 = 'Невероятно!';
-                message2 = 'Богатырь ин да хаус!';
+                message2 = 'Богатырь ЕМИАС ин да хаус!';
             } else {
                 message1 = 'Увы!';
                 message2 = 'Пойдем отдохнем и начнем сначала!';
