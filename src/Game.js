@@ -20,7 +20,7 @@ class Game {
         this.winningScore = 200;
         this.gameTime = 0;
         this.timeLimit = 45; // сек.
-        this.speed = 2;
+        this.speed = 1;
         this.debug = false;
 
         if (isMobileOrTablet) {

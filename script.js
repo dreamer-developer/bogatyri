@@ -2,8 +2,8 @@ window.addEventListener('load', function () {
     // canvas setup
     const canvas = this.document.getElementById('canvas1');
     const ctx = canvas.getContext('2d');
-    canvas.width = window.innerWidth;
-    canvas.height = 450;
+    canvas.width = 1500;
+    canvas.height = 500;
 
     function isMobileOrTablet() {
         let check = false;
