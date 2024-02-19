@@ -54,7 +54,7 @@ class Player {
         context.strokeRect(this.x, this.y, this.width, this.height);
         // Сначала рисуем пули
         this.projectiles.forEach(pr => { pr.draw(context); });
-        // а затем игрока (морского конька)
+        // а затем игрока 
         context.drawImage(this.image, this.frameX * this.width + 5, this.frameY * this.height, this.width, this.height,
             this.x, this.y, this.width, this.height);
     }
@@ -71,7 +71,7 @@ class Player {
 
     shootBottom() {
         if (this.game.ammo > 0) {
-            this.projectiles.push(new Projectile(this.game, this.x + 80, this.y + 175));
+            this.projectiles.push(new Projectile(this.game, this.x + 80, this.y + 60));
             this.game.ammo--;
         }
     }
