@@ -40,7 +40,7 @@ class MobileDeviceAdapter {
         // показываем кнопку "Shoot"
         document.getElementById("shoot_btn").style.display = "Block";
         // и меняем надпись с правилами игры
-        document.getElementById("description").innerText = "Перемещай морского конька с помощью тачпада и используй кнопку в правом нижнем углу для стрельбы. \n" +
-            "Для победы необходимо за 30 секунд набрать 100 очков";
+        document.getElementById("description").innerText = "Перемещай богатырей на драконе с помощью тачпада и используй кнопку в правом нижнем углу для стрельбы. \n" +
+            "Для победы необходимо за 45 секунд набрать 200 очков";
     }
 }
